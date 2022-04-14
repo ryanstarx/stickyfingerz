@@ -1,0 +1,171 @@
+.text-info{
+    width: 100%;
+    height: 100%;
+    //background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  h2{
+    width:60%;
+    height: 100%;
+    font-size:5rem;
+    font-family: 'PT Serif', serif;
+    padding:  200px 0px 0 100px ;
+    margin-left: 80px;
+  }
+  
+  .info{
+    width: 13%;
+    height: 100%;
+    padding-top:210px;
+    line-height:30px;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+  }
+  .line{
+    width:80px;
+    height:2px;
+    background-color: red;
+    margin-top: 20px;
+  }
+  
+  @media screen and (max-width:1800px){
+    .info{
+      width:20%;
+      margin-left:80px;
+    }
+  }
+  
+  @media screen and (max-width:1650px){
+    h2{
+      font-size:4rem; 
+    }
+    .info{
+      width:25%;
+    }
+  }
+  
+  @media screen and (max-width:1500px){
+    h2{
+      margin-left: 20px;
+    }
+  }
+  
+  @media screen and (max-width:1350px){
+    
+    h2{
+      font-size:3.5rem; 
+      }
+    
+  }
+  
+  
+  
+  @media screen and (max-width:1210px){ 
+    .text-info{
+      margin-top:100px;
+    } 
+      h2{
+        padding-left: 40px;
+        padding-top:300px;
+        margin: 30px 0;
+        font-size: 3rem;
+      }
+    .info{
+      padding-top:300px;
+      margin: 30px 0;
+      padding-left: 80px;
+      width:40%;
+    }
+    
+  }
+  
+  @media screen and (max-width:1000px){  
+    h2{
+      padding-left: 5px;
+    }
+  .info{
+    padding-left: 60px;
+    
+  }
+  
+  }
+  
+  
+  
+  
+  @media screen and (max-height:1080px){
+    .text-info{
+      height:30%;
+    }
+    .info{
+     padding-top:130px;
+    }
+    h2{
+      padding-top:120px;
+      }
+  }
+  
+  
+  @media screen and (max-height:900px){
+    .info{
+     padding-top:30px;
+    }
+    h2{
+      padding-top:30px;
+      }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media screen and (max-width:1300px){ 
+    .text-info{
+      margin-top:30px;
+    } 
+  }
+  
+  
+  
+  
+  @media screen and (max-width:700px){  
+    .text-info{
+     flex-direction: column;
+     align-items: space-between;
+      justify-content: space-between;
+      height:80%;
+      margin-top: 0px;
+     
+    }
+    h2{
+      padding:0;
+      width: 100%;
+      height: max-content;
+      margin:10px 0;
+      font-size:2rem;
+    }
+  .info{
+    padding:0;
+     width: 100%;
+     height: max-content;
+     
+  }
+  
+  }
+  
+  
+  @media screen and (max-width:500px){
+    .info{
+   margin-bottom:40px;
+    }
+  }
+  
+  
+  

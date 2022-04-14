@@ -1,0 +1,71 @@
+.header{
+    display: none;
+  }
+  
+  @media screen and (max-width:1210px){
+    .header{
+      display:block;
+      height:100px;
+      //background-color: aqua;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      
+  
+    }
+    .burger{
+      width:80px;
+      height:80%;
+      width:20%;
+      //background-color:red;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      cursor: pointer;
+    }
+  
+    .line-b{
+      margin:4px 0;
+      height:3px;
+      border-radius:30px;
+      background-color: #f05051;
+    }
+    .line1{
+      width:15px;
+    }
+    .line2{
+      width:30px;
+    }
+    .line3{
+      width:20px;
+    }
+  
+    .logo-mob{
+      width:80%;
+      height:100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      font-family: 'PT Serif', serif;
+      cursor:pointer;
+    }
+    .cart-icon{
+      width:20%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      font-size:1.5rem;
+      color: #f05051;
+    }
+  }
+  
+  @media  screen and  (max-width: 361px){
+    .header{
+      height:80px;
+    }
+  }
+  
+  

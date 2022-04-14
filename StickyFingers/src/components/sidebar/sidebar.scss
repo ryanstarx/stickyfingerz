@@ -1,0 +1,138 @@
+.sidebar{
+    width:18%;
+    height: 100%;
+    //background-color:green;
+  }
+  
+  .sidebar-container{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    padding: 60px 0 60px 80px;
+    .logo{
+      font-size: 2.8rem;
+      padding:40px 0 50px;
+      font-family: 'PT Serif', serif;
+    }
+    .menu p{
+      font-size: 1.2rem;
+      padding:25px 0;
+      font-family: 'Roboto', sans-serif;
+      color: #41424c;
+      font-weight:300;
+      cursor: pointer;
+    }
+  }
+  
+  .cart-button{
+    margin:40px auto;
+    width:80%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn {
+    border:none;
+      border-radius:30px;
+      font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+      color: inherit;
+      background: none;
+      cursor: pointer;
+      padding: 19px 40px;
+      display: inline-block;
+      margin: 15px 30px;
+      letter-spacing: 1px;
+      font-weight: 700;
+      outline: none;
+      position: relative;
+      transition: all 0.3s;
+  }
+  
+  .btn:after {
+      content: '';
+      position: absolute;
+      z-index: -1;
+      transition: all 0A.3s;
+  }
+  
+  .btn-5 {
+    background: #f05051;
+    color: #fff;
+    height: 60px;
+    min-width: 150px;
+    font-size: 16px;
+    overflow: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .btn-5:active {
+    background: #f05051;
+    top: 2px;
+  }
+  
+  .btn-5 span {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+    backface-visibility: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+  
+  .btn-5:before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    line-height: 4;
+    font-size: 100%;
+    transition: all 0.3s;
+  }
+  
+  .btn-5:active:before {
+    color: #f05051;
+  }
+  
+  .icon-cart:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f07a";
+    color: white;
+  }
+  
+  .btn-5b:hover span {
+      transform: translateX(150%);
+  }
+  
+  .btn-5b:before {
+      left: -100%;
+      top: 0;
+  }
+  
+  .btn-5b:hover:before {
+      left: 0;
+  }
+  
+  @media screen and(max-height:900px){
+    .sidebar-container{
+      height:80%;
+      padding: 50px 0 50px 70px;
+      .logo{
+        padding:10px 0 30px;
+      }
+      .menu p{
+        padding:15px 0;
+      }
+    }
+  }
+  
+  @media screen and (max-width:1210px){
+    .sidebar{
+  
+      display:none;
+    }
+    
+  }
